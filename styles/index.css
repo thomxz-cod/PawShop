@@ -16,10 +16,19 @@
 header{
     width: 100%;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     gap: 10px;
     background-color: var(--azul);
     margin-bottom: 10px;
+}
+header div{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+#ladoD{
+    justify-content: end;
+    padding-right: 20px;
 }
 nav{
     gap: 10px;
@@ -32,7 +41,6 @@ header nav a{
 }
 
 main{
-    background-color: var(--branco);
     width: 100%;
 }
 
